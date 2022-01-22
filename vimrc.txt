@@ -1,0 +1,47 @@
+"Settings -------------------------------------------
+
+syntax on
+
+" Set compatibility to Vim only
+set nocompatible
+
+" No sound effects
+set noerrorbells
+
+" Change tab size
+set shiftwidth=4
+
+" Tabstop
+set tabstop=4 softtabstop=4
+
+" Smart indent
+set smartindent
+
+" Show line numbers
+set number
+
+" Status bar
+set laststatus=2
+
+" Text Wrapping Options
+set wrap
+" set nowrap
+
+" noswapfile
+set noswapfile
+
+" Encoding
+set encoding=utf-8
+
+" Incremental search
+set incsearch
+
+" Undo directory
+set undodir=~/.vim/undodir
+
+" Setup undo file
+set undofile
+
+"Plug ins --------------------------------------------
+
+
