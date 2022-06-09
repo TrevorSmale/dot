@@ -1,15 +1,15 @@
-# VIM
+# NeoVIM Configuration
 
-[VIM website] 'https://www.vim.org'
+## NeoVIM is my go-to editor
 
-Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+I use NeoVIM + Alacritty + tmux because the setup is fast and responsive.
+However, I am a newb in many ways. For over one year I have been using NVIM with a configuration that was copied from elsewhere. Now that I have a much better grasp of development tools and techniques, I am attempting to create my own Neovim config file from scratch.
 
-Vim is rock stable and is continuously being developed to become even better
+## Goals
+### My overall intent is to replace VSCODE as a main IDE
 
-Amonng its features are:
+- Syntax highlighting for HTML, CSS, JS, GO ++
+- Fuzzyfinding
+- Auto formatting or beuatification 'if possible'
+- Homepage
 
-* Persistent, multi-level undo tree
-* Extensive plugin system
-* Support for hundreds of programming languages and file formats
-* Powerful search replace
-* Integrates with many tool
