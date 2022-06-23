@@ -1,15 +1,15 @@
-# NeoVIM Configuration
+# Config Files
 
-## NeoVIM is my go-to editor
+## This is a copy of my custom configurations
+I started using command line interface tools and have settled on a pairing that I believe will stand the test of time.
+When it comes to configuring my tools I am a smooth brain. However, I am slowly customizing my tools bit by bit from the ground up. 
 
-I use NeoVIM + Alacritty + tmux because the setup is fast and responsive.
-However, I am a newb in many ways. For over one year I have been using NVIM with a configuration that was copied from elsewhere. Now that I have a much better grasp of development tools and techniques, I am attempting to create my own Neovim config file from scratch.
+## Repository structure
 
-## Goals
-### My overall intent is to replace VSCODE as a main IDE
+There are folders dedicated to each tool eg. Alacritty. Within each tool folder is a README and config file. I will do my best to clearly indicated the steps needed in order to get things working in each dedicated README.
 
-- Syntax highlighting for HTML, CSS, JS, GO ++
-- Fuzzyfinding
-- Auto formatting or beuatification 'if possible'
-- Homepage
+## Descriptions
 
+Alacritty - Is an Open Source cross platform terminal.
+Neovim - Is a mouseless text editing instrument with many speed focused commands.
+TMUX - Is a terminal multiplexor that both allows for terminal window management and session management.
