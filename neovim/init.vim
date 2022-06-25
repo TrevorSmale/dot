@@ -1,4 +1,3 @@
-
 call plug#begin()
     " Appearance
     Plug 'vim-airline/vim-airline'
@@ -9,12 +8,21 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     Plug 'ap/vim-css-color'
     Plug 'preservim/nerdtree'
+    Plug 'vimwiki/vimwiki'
+    Plug 'nvim-treesitter/nvim-treesitter'
 
     " Completion / linters / formatters
     Plug 'plasticboy/vim-markdown'
+    Plug 'Shougo/deoplete.nvim'
 
     " Git
     Plug 'airblade/vim-gitgutter'
+
+    " Golang stuff
+    Plug 'fatih/vim-go' 
+
+    " script test
+
 call plug#end()
 
 
@@ -42,4 +50,5 @@ set tabstop=2
 filetype plugin indent on
 syntax on
 
-
+" NERDTree Settings
+nmap <C-f> :NERDTreeToggle<CR>
