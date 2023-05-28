@@ -1,0 +1,42 @@
+# Installation target for Nix package manager
+install:
+    sh <(curl -L https://nixos.org/nix/install) --daemon
+
+# Installation target for Vim
+vim:
+    nix-env -i vim
+
+# Installation target for Tmux
+tmux:
+    nix-env -i tmux
+
+# Installation target for Fish shell
+fish:
+    nix-env -i fish
+
+# Installation target for Go programming language
+go:
+    nix-env -i go
+
+# Installation target for Hugo static site generator
+hugo:
+    nix-env -i hugo
+
+# Installation target for Python 3
+python:
+    nix-env -i python3
+
+# Installation target for BUN package manager
+bun:
+    nix-env -i bun
+
+# Installation target for OpenSSH
+ssh:
+    nix-env -i openssh
+
+# Uninstallation target for Nix and all installed packages
+uninstall:
+    sudo rm -rf /nix /etc/nix /etc/profile.d/nix.sh
+
+# Declare targets that are not associated with files
+.PHONY: install vim tmux fish go hugo python bun ssh uninstall
